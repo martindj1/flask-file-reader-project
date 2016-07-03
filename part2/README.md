@@ -1,16 +1,3 @@
-Flask-file-reader-project
-===
-
-
-### Part1 (starting off simple)
-- Create python script that reads file line by line
-    - Add ability to save to variable
-
-###### References
-- [Python read from file](http://learnpythonthehardway.org/book/ex15.html)
-
----
-
 ### Part2 (making classes)
 - Make script a class structure
     - Make a class object named PyReader
@@ -26,4 +13,3 @@ Flask-file-reader-project
 - [Importing other python files](http://stackoverflow.com/questions/2349991/python-how-to-import-other-python-files)
 - [What is REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
 
----
