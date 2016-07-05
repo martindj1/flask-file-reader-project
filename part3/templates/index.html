@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macros %}
+{% block body %}
+
+{{ macros.navbar() }}
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>Flask File Reader</h1>
+    <p>Reading files</p>
+    <form role="form" action="/load_file" method="post">
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="sizing-addon1">File Name</span>
+        <input type="text" class="form-control" placeholder="Filename" aria-describedby="sizing-addon1" name="filename">
+      </div>
+      <br>
+      <p><input type="submit" class="btn btn-lg btn-success" value="Load File"></input></p>
+    </form>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Example row of columns -->
+  {{ macros.list_items(files=files) }}
+
+  <hr>
+
+  {{ macros.footer() }}
+</div> <!-- /container -->
+{% endblock %}e
