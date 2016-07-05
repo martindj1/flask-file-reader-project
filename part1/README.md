@@ -1,3 +1,4 @@
+
 ### Part1 (starting off simple)
 - Create python script that reads file line by line
     - Add ability to save to variable
